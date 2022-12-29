@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="witcher.css">
+    <title>Main-Page</title>
+  </head>
+  <body class="bg-black ps-3">
+    <section class="top-bar">
+   
+    <nav  class="navbar navbar-expand-lg pb-5">
+      <div class="container">
+          <a href="index.html" class="navbar-brand"><i class="fa-solid fa-house"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
+              <span class="navbar-toggler-icon">≡</span>
+          </button>
+          <div id="mobile" class="collapse navbar-collapse">               
+        
+              <ul id="sss" class="navbar-nav me-auto ">
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link  ">Anasayfa</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="Characters.html" class="nav-link">Karakter Külliyatı</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Yaratık Külliyatı</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link ">Şehirler</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ">Kitaplar</a>
+                </li>  <li class="nav-item">
+                  <a href="#" class="nav-link ">Wallpapers and Gifs</a>
+              </li>  <li class="nav-item">
+                <a href="#" class="nav-link ">İletişim</a>
+            </li>
+              </ul>
+              <form class="d-flex ">           
+                  <input type="text" class="form-control me-1" placeholder="Search">
+                  <button class="btn btn-secondary">
+                      <i class="fa-solid fa-magnifying-glass">Ara</i>
+                  </button>                
+              </form>
+
+          </div>
+
+      </div>
+    </nav>
+  </section>
+    <section id="WitcherBaşlık" style="padding-bottom:20px" >
+
+  
+        <div  class="container md-4 fw-bold">
+          <div  id="schoolofwitchers" class="row">
+            <h2> Witcher Okulları ve Simgeleri</h2>
+            <div class="col-xs-12">
+              <button onclick="ileri()" style="background-color: black;"> <i style="color: beige;" class="fa-solid fa-arrow-left"></i></button>
+              <img style="max-width:250px;" class="rounded-circle" id="wolf" src="schoolsphotos/wolfschool.jpeg" alt="">
+              <button onclick="geri()"style="background-color: black;"><i style="color:white "class="fa-light fa-solid fa-arrow-right"></i></button>
+            </div>            
+        </div>
+          <div class="row">
+            <div class="col-md-12 mb-5 "> 
+              <h1 class="text-center p-5">Witcher Oyun Serisi ve Hikayesi</h1>
+              <h2 class="md-4 m-2 p-2 text-center">Oyun Serisinin Tarihçesi</h2>
+            </div>
+          </div>
+          
+        <div id="witcher-oyun-tarihçesi"><p><b> The Witcher (Türkçesi: Efsunger)</b>, CD Projekt RED tarafından geliştirilmiş ve Atari tarafından yayınlanmış bir aksiyon-rol yapma ve hack and
+          slash oyunudur. Oyun, Leh yazar Andrzej Sapkowski'nin aynı isimdeki roman serileri üzerine dayalıdır.</p> <p> The Witcher, ortaçağ fantezi dünyasında
+          geçer ve Geralt adındaki sayılı kalan witcherdan birinin hikâyesini anlatır. Witcherlar, doğaüstü güçlere sahip, gezgin, kiralık canavar
+          avcılarıdır.</p> <p> Oyunun hikâyesiyle gelen "ahlaki seçimler", ilerideki sonuçları etkilediği ve akla kara ahlakının yokluğunu göstermektedir. 2009
+          senesinde, The Witcher: Rise of The White Wolf isimli tamamiyle yeni bir oyun motoru ve yenilenmiş dövüş sistemi içeren bir konsol versiyonunun
+          çıkarılması planlanıyordu. Ancak oyunun konsol versiyonunun geliştiricisi WideScreen Games ile çıkan ödeme anlaşmazlıklarından dolayı iptal
+          edildi.</p> <p><b>The Witcher</b> oyun serisinin ilk oyunudur. 2007'de yayınlanmış, eleştirmenler ve basından pozitif incelemeler almıştır. Metacritic
+          puanı 81/100'dür.</p> <p>Serinin 2011'de <b> The Witcher 2: Assassin's of Kings</b> </p> <p> 2015'te <b> The Witcher 3: Wild Hunt</b> olmak üzere 2 devam oyunu
+          yayınlanmıştır.</p> <p> Witcher 3 ile de farklı Dlc ve hikayeler barındırmaktadır.</p></div>
+        <h2>Oyun Serileri ve Hikayeleri</h2>
+        <button class="btn btn-class mt-1" id="StoryButton"><img style="height: 75px;" src="photos/swords.png" alt=""></button>
+
+          <div id="witcher-1" class="row">
+              <div class="col-md-12 mt-4"><a  class="text-decoration-none mt-4" href="The-Witcher.html">The Witcher 1</a>
+              <i class="fa-regular fa-swords"></i>
+              </div>
+                <div class="col-md-12 mt-4">  <a id="witcher-2" class="text-decoration-none mt-4" href="Witcher-2.html"> The Witcher 2: Assassin's of King</a>
+              </div>
+          </div>
+        
+    
+      </section>
+   
+
+      
+     
+    </section>
+<script>
+
+  
+  var fotograflar = ["/schoolsphotos/wolfschool.jpeg","schoolsphotos/bearschool.jpeg","/schoolsphotos/catschool.jpeg","/schoolsphotos/griffinschool.jpeg","/schoolsphotos/snakeschool.jpeg","/schoolsphotos/mantikoreschool.jpeg"];
+  var suanki_index = 0;
+
+  function ileri() {
+    suanki_index = (suanki_index + 1) % fotograflar.length;
+    document.getElementById("wolf").src = fotograflar[suanki_index];
+  }
+
+  function geri() {
+    suanki_index = (suanki_index - 1 + fotograflar.length) % fotograflar.length;
+    document.getElementById("wolf").src = fotograflar[suanki_index];
+  };
+</script>
+<script> const btn=document.getElementById("StoryButton")
+ const stories=document.getElementById("witcher-1"); 
+  btn.addEventListener("click",function(){
+    if (stories.style.display==="none"){
+        stories.style.display="block";}
+    else{stories.style.display="none";}});
+</script>
+<script src="https://kit.fontawesome.com/24a5f7225d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous">
+    </script>
+  
+  </body>
+</html>

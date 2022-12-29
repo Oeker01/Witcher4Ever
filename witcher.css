@@ -1,0 +1,54 @@
+*:focus {
+  box-shadow: none !important;
+}
+body{color: #1B1A17}
+b{color:#22A39F }
+b:hover{color: gold;}
+h1,h2,h3,h4,h5,h6{color:#735F32}
+h2:hover{color:gold}
+h3:hover{color:gold}
+h4:hover{color:gold}
+h5:hover{color:gold}
+h6:hover{color:gold}
+
+#WitcherBaşlık a{
+  color: #735F32 ;
+  font-size:40x;
+  font-weight:80px;
+font-family:Verdana, Geneva, Tahoma, sans-serif}
+a {
+  text-decoration: none;
+  color: white;
+}
+#schoolofwitchers{text-align: center;}
+#schoolofwitchers img
+{max-width:650px;
+  max-height:650px ;
+ padding-bottom:75px ;
+}
+.hakanbusporuyapiyor img{
+  width: 100%;
+  max-width: 450px;
+  
+  border-style:solid;
+  border-color: rgb(28, 26, 26);
+  border-width:5px ;
+  border-radius:25px; 
+  margin-bottom:40px ;
+ };
+#witcher-1 a:hover{color: gold;}
+#sss a{
+  font-size:19px;
+  color:white}
+
+.navbar-toggler {
+  color: white;
+}
+
+.bg-black {
+  font-size:20px;
+  color: white;
+}
+
+
+

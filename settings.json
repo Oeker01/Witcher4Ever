@@ -1,0 +1,8 @@
+{
+  "prettier.bracketSameLine": false,
+  "prettier.enableDebugLogs": false,
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": false,
+  "editor.suggestFontSize": 16,
+  "editor.foldingImportsByDefault": true
+}
